@@ -273,7 +273,7 @@
                             HeightRequest="40"/>
                         <VerticalStackLayout>
                             <Label
-                                Text="KLASA"
+                                Text="DATUM"
                                 TextColor="LightGray"/>
                             <DatePicker/>
                         </VerticalStackLayout>
@@ -326,7 +326,13 @@
                     </HorizontalStackLayout>
                 </Frame>
             </HorizontalStackLayout>
+            <Label
+                Text="Kalkulacija grupnog popusta je informativnog karaktera!"
+                TextColor="LightGray"
+                FontAttributes="Italic"
+                HorizontalOptions="Center"/>
             <Button
+                Clicked="kalkulacija"
                 WidthRequest="350"
                 CornerRadius="30"
                 Text="PRIKAŽI IZNOS POLICE"
